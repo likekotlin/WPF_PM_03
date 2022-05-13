@@ -1,0 +1,16 @@
+C:\Users\Мишка\Desktop\session_2\session_2\bin\Debug\session_2.exe.config
+C:\Users\Мишка\Desktop\session_2\session_2\bin\Debug\session_2.exe
+C:\Users\Мишка\Desktop\session_2\session_2\bin\Debug\session_2.pdb
+C:\Users\Мишка\Desktop\session_2\session_2\obj\Debug\session_2.csproj.AssemblyReference.cache
+C:\Users\Мишка\Desktop\session_2\session_2\obj\Debug\session_2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Мишка\Desktop\session_2\session_2\obj\Debug\MainWindow.g.cs
+C:\Users\Мишка\Desktop\session_2\session_2\obj\Debug\App.g.cs
+C:\Users\Мишка\Desktop\session_2\session_2\obj\Debug\session_2_MarkupCompile.cache
+C:\Users\Мишка\Desktop\session_2\session_2\obj\Debug\session_2_MarkupCompile.lref
+C:\Users\Мишка\Desktop\session_2\session_2\obj\Debug\MainWindow.baml
+C:\Users\Мишка\Desktop\session_2\session_2\obj\Debug\session_2.g.resources
+C:\Users\Мишка\Desktop\session_2\session_2\obj\Debug\session_2.Properties.Resources.resources
+C:\Users\Мишка\Desktop\session_2\session_2\obj\Debug\session_2.csproj.GenerateResource.cache
+C:\Users\Мишка\Desktop\session_2\session_2\obj\Debug\session_2.csproj.CoreCompileInputs.cache
+C:\Users\Мишка\Desktop\session_2\session_2\obj\Debug\session_2.exe
+C:\Users\Мишка\Desktop\session_2\session_2\obj\Debug\session_2.pdb
