@@ -1,0 +1,32 @@
+C:\Users\Мишка\Desktop\практика учебная\session_1\session_1\bin\Debug\session_1.exe.config
+C:\Users\Мишка\Desktop\практика учебная\session_1\session_1\bin\Debug\session_1.exe
+C:\Users\Мишка\Desktop\практика учебная\session_1\session_1\bin\Debug\session_1.pdb
+C:\Users\Мишка\Desktop\практика учебная\session_1\session_1\obj\Debug\session_1.csproj.AssemblyReference.cache
+C:\Users\Мишка\Desktop\практика учебная\session_1\session_1\obj\Debug\session_1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Мишка\Desktop\практика учебная\session_1\session_1\obj\Debug\MainWindow.g.cs
+C:\Users\Мишка\Desktop\практика учебная\session_1\session_1\obj\Debug\App.g.cs
+C:\Users\Мишка\Desktop\практика учебная\session_1\session_1\obj\Debug\session_1_MarkupCompile.cache
+C:\Users\Мишка\Desktop\практика учебная\session_1\session_1\obj\Debug\session_1_MarkupCompile.lref
+C:\Users\Мишка\Desktop\практика учебная\session_1\session_1\obj\Debug\MainWindow.baml
+C:\Users\Мишка\Desktop\практика учебная\session_1\session_1\obj\Debug\session_1.g.resources
+C:\Users\Мишка\Desktop\практика учебная\session_1\session_1\obj\Debug\session_1.Properties.Resources.resources
+C:\Users\Мишка\Desktop\практика учебная\session_1\session_1\obj\Debug\session_1.csproj.GenerateResource.cache
+C:\Users\Мишка\Desktop\практика учебная\session_1\session_1\obj\Debug\session_1.csproj.CoreCompileInputs.cache
+C:\Users\Мишка\Desktop\практика учебная\session_1\session_1\obj\Debug\session_1.exe
+C:\Users\Мишка\Desktop\практика учебная\session_1\session_1\obj\Debug\session_1.pdb
+C:\Users\Мишка\Desktop\session_1\session_1\bin\Debug\session_1.exe.config
+C:\Users\Мишка\Desktop\session_1\session_1\bin\Debug\session_1.exe
+C:\Users\Мишка\Desktop\session_1\session_1\bin\Debug\session_1.pdb
+C:\Users\Мишка\Desktop\session_1\session_1\obj\Debug\session_1.csproj.AssemblyReference.cache
+C:\Users\Мишка\Desktop\session_1\session_1\obj\Debug\session_1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Мишка\Desktop\session_1\session_1\obj\Debug\MainWindow.g.cs
+C:\Users\Мишка\Desktop\session_1\session_1\obj\Debug\App.g.cs
+C:\Users\Мишка\Desktop\session_1\session_1\obj\Debug\session_1_MarkupCompile.cache
+C:\Users\Мишка\Desktop\session_1\session_1\obj\Debug\session_1_MarkupCompile.lref
+C:\Users\Мишка\Desktop\session_1\session_1\obj\Debug\MainWindow.baml
+C:\Users\Мишка\Desktop\session_1\session_1\obj\Debug\session_1.g.resources
+C:\Users\Мишка\Desktop\session_1\session_1\obj\Debug\session_1.Properties.Resources.resources
+C:\Users\Мишка\Desktop\session_1\session_1\obj\Debug\session_1.csproj.GenerateResource.cache
+C:\Users\Мишка\Desktop\session_1\session_1\obj\Debug\session_1.csproj.CoreCompileInputs.cache
+C:\Users\Мишка\Desktop\session_1\session_1\obj\Debug\session_1.exe
+C:\Users\Мишка\Desktop\session_1\session_1\obj\Debug\session_1.pdb
