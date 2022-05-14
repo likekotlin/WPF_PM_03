@@ -23,6 +23,27 @@ namespace session_2
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.Navigate(new abonents());
+            main.MainFrame = MainFrame;
         }
+
+        private void abonents_Click(object sender, RoutedEventArgs e)
+        {
+            main.MainFrame.GoBack();
+        }
+         
+         private void MainFrame_ContentRendered(object sender, EventArgs e)
+        {
+          if(MainFrame.CanGoBack)
+            {
+                abonents.Visibility = Visibility.Visible;
+            }
+          else
+            {
+                abonents.Visibility = Visibility.Hidden;
+            }
+        }
+
+        
     }
 }
