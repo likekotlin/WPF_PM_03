@@ -6,10 +6,10 @@
         xmlns:local="clr-namespace:session_2"
         mc:Ignorable="d"
         Title="MainWindow" Height="520" Width="800" FontSize="8">
-    <Grid>
+    <Grid Margin="0,0,0,20">
         <Grid.RowDefinitions>
-            <RowDefinition Height="20*"/>
-            <RowDefinition/>
+            <RowDefinition Height="431*"/>
+            <RowDefinition Height="53*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="139"/>
@@ -17,19 +17,19 @@
             <ColumnDefinition Width="491"/>
             <ColumnDefinition Width="170"/>
         </Grid.ColumnDefinitions>
-        <Image Source="img/logo_TNS.png" Margin="0,-22,0,364"/>
+        <Image Source="img/logo_TNS.png" Margin="0,-1,0,343"/>
         <Button x:Name="abonents" Content="Абоненты" HorizontalAlignment="Center" Margin="0,130,0,0" VerticalAlignment="Top" Height="27" Width="120" FontSize="13" Background="#FF1C9CDA" />
-        <Button Content="Активы" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30" Width="120" FontSize="13" Background="#FF1C9CDA" />
+        <Button Content="Активы" HorizontalAlignment="Center" VerticalAlignment="Top" Height="30" Width="120" FontSize="13" Background="#FF1C9CDA" Margin="0,212,0,0" />
         <Button Content="Биллинг" HorizontalAlignment="Center" Margin="0,262,0,0" VerticalAlignment="Top" Height="22" Width="120" FontSize="13" Background="#FF1C9CDA"/>
         <Button Content="Поддержка &#xD;&#xA;пользователей" HorizontalAlignment="Center" Margin="0,301,0,0" VerticalAlignment="Top" Height="35" Width="120" FontSize="13" Background="#FF1C9CDA"/>
         <Button Content="CRM" HorizontalAlignment="Center" Margin="0,352,0,0" VerticalAlignment="Top" Height="27" Width="120" FontSize="13" Background="#FF1C9CDA"/>
-        <Button Content="Управление&#xD;&#xA; оборудованием" HorizontalAlignment="Center" Margin="0,162,0,0" VerticalAlignment="Top" Height="35" Width="120" FontSize="13" Background="#FF1C9CDA" />
+        <Button Content="Управление&#xD;&#xA; оборудованием" HorizontalAlignment="Center" Margin="0,162,0,0" VerticalAlignment="Top" Height="45" Width="120" FontSize="13" Background="#FF1C9CDA" />
         <Button 
             Content ="?"
             Margin="0,409,0,0" 
             FontSize="24" 
             FontWeight="Bold"
-            Background="#FF1C9CDA" HorizontalAlignment="Center" Width="49" Height="45" VerticalAlignment="Top">
+            Background="#FF1C9CDA" HorizontalAlignment="Center" Width="49" Height="45" VerticalAlignment="Top" Grid.RowSpan="2">
             <Button.Resources>
                 <Style 
                     TargetType="Border">
@@ -39,8 +39,78 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <ComboBox Grid.Column="3" HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top" Width="130" Height="32"/>
-        <ScrollBar Grid.Column="3" HorizontalAlignment="Center" Margin="0,120,0,0" VerticalAlignment="Top" Height="334" Width="190"></ScrollBar>
-        <Frame NavigationUIVisibility="Hidden"  Name="MainFrame"  Margin="5,0,10,0" Grid.Column="2" Grid.RowSpan="2"/>
+        <Button 
+            
+            Content ="Фото" 
+            Margin="123,12,5,419" 
+            FontSize="16" 
+            FontWeight="Normal" Grid.Column="3" RenderTransformOrigin="0.5,0.5">
+            <Button.Resources>
+                <Style
+                    TargetType="{x:Type Border}">
+                    <Setter 
+                        Property="CornerRadius"
+                        Value="50"/>
+                </Style>
+            </Button.Resources>
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.07"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <RadioButton 
+            
+            Content="Активные" 
+            HorizontalAlignment="Left" 
+            Margin="0,9,0,0" 
+            VerticalAlignment="Top" 
+            Height="43" 
+            FontSize="11" Grid.Column="2" Grid.Row="1" Width="68"/>
+        <RadioButton 
+             
+            Content="Неактивные"
+            HorizontalAlignment="Left"
+            Margin="105,10,0,0"
+            VerticalAlignment="Top" 
+            Height="43" 
+            FontSize="11" Width="94" Grid.Column="2" Grid.Row="1"/>
+        <ComboBox Grid.Column="3" HorizontalAlignment="Left" Margin="5,15,0,0" VerticalAlignment="Top" Width="110" Height="32"/>
+        <ScrollViewer Grid.Column="3" Margin="16,165,16,65">
+            <StackPanel>
+                <TextBlock 
+                    Text="Собрание менеджеров 10:00" 
+                    Height="82" 
+                    FontSize="20"
+                    TextAlignment="Center"
+                    TextWrapping="Wrap" 
+                    Background="#FF1C9CDA" />
+                <TextBlock 
+                    Text="Отчёт по инвертизации"
+                    Height="82" 
+                    FontSize="20" 
+                    TextAlignment="Center" 
+                    TextWrapping="Wrap"
+                    Background="#FF1C9CDA" />
+                <TextBlock 
+                    Text="Отчёт по инвертизации" 
+                    Height="82" 
+                    FontSize="20"
+                    TextAlignment="Center" 
+                    TextWrapping="Wrap"
+                    Background="#FF1C9CDA" />
+                <TextBlock 
+                    Text="Собрание акционеров 12:00" 
+                    Height="82"
+                    FontSize="20" 
+                    TextAlignment="Center"
+                    TextWrapping="Wrap"
+                    Background="#FF1C9CDA" />
+            </StackPanel>
+        </ScrollViewer>
+        <Frame NavigationUIVisibility="Hidden"  Name="MainFrame" Grid.Column="2" Margin="0,-1,0,1"/>
     </Grid>
 </Window>

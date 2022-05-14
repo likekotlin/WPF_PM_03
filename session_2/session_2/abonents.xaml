@@ -6,10 +6,22 @@
       xmlns:local="clr-namespace:session_2"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="abonents"
-      >
+      Title="abonents">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="377"/>
+            <RowDefinition Height="80"/>
+        </Grid.RowDefinitions>
+        <DataGrid x:Name="GridAbonents">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ФИО" Binding="{Binding fio}" Width="200"></DataGridTextColumn>
+                <DataGridTextColumn Header="Абонентский номер" Binding="{Binding number}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Лицевой счет" Binding="{Binding schot}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Услуги" Binding="{Binding yslygi}" Width="*"></DataGridTextColumn>
+            </DataGrid.Columns>
+
+        </DataGrid>
+
     </Grid>
 </Page>
