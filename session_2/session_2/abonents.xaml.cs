@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using session_2.classes;
+
+
 
 namespace session_2
 {
@@ -23,8 +26,8 @@ namespace session_2
         public abonents()
         {
             InitializeComponent();
+            GridAbonents.ItemsSource = session2Entities.GetContext().abonents.ToList();
         }
-
         
     }
 }

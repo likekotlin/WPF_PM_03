@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище Session2" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "session_2.dbo.abonents" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+        <EntityType Name="abonents">
+          <Key>
+            <PropertyRef Name="Номер_абонента" />
+            <PropertyRef Name="ФИО" />
+            <PropertyRef Name="Пол" />
+            <PropertyRef Name="Дата_рождения" />
+            <PropertyRef Name="Номер_телефона" />
+            <PropertyRef Name="Электронная_почта" />
+            <PropertyRef Name="Адрес_прописки" />
+            <PropertyRef Name="Адрес_проживания" />
+            <PropertyRef Name="Серия_и_номер_паспорта" />
+            <PropertyRef Name="Код_подразделения" />
+            <PropertyRef Name="Кем_выдан" />
+            <PropertyRef Name="Дата_выдачи_паспорта" />
+            <PropertyRef Name="Номер_договора" />
+            <PropertyRef Name="Дата_заключения_договора" />
+            <PropertyRef Name="Тип_договора" />
+            <PropertyRef Name="Лицевой_счет" />
+            <PropertyRef Name="Услуги" />
+            <PropertyRef Name="Серийный_номер_оборудования" />
+          </Key>
+          <Property Name="Номер_абонента" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ФИО" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Пол" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Дата_рождения" Type="date" Nullable="false" />
+          <Property Name="Номер_телефона" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Электронная_почта" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Адрес_прописки" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Адрес_проживания" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Серия_и_номер_паспорта" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Код_подразделения" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Кем_выдан" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Дата_выдачи_паспорта" Type="date" Nullable="false" />
+          <Property Name="Номер_договора" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Дата_заключения_договора" Type="date" Nullable="false" />
+          <Property Name="Тип_договора" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Причина_расторжения_договора" Type="nvarchar" MaxLength="50" />
+          <Property Name="Лицевой_счет" Type="int" Nullable="false" />
+          <Property Name="Услуги" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Услуги2" Type="nvarchar" MaxLength="50" />
+          <Property Name="Услуги3" Type="nvarchar" MaxLength="50" />
+          <Property Name="Дата_расторжения_договора" Type="date" />
+          <Property Name="column22" Type="nvarchar" MaxLength="50" />
+          <Property Name="Серийный_номер_оборудования" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="Хранилище Session2Container">
+          <EntitySet Name="abonents" EntityType="Self.abonents" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [abonents].[Номер_абонента] AS [Номер_абонента], 
+    [abonents].[ФИО] AS [ФИО], 
+    [abonents].[Пол] AS [Пол], 
+    [abonents].[Дата_рождения] AS [Дата_рождения], 
+    [abonents].[Номер_телефона] AS [Номер_телефона], 
+    [abonents].[Электронная_почта] AS [Электронная_почта], 
+    [abonents].[Адрес_прописки] AS [Адрес_прописки], 
+    [abonents].[Адрес_проживания] AS [Адрес_проживания], 
+    [abonents].[Серия_и_номер_паспорта] AS [Серия_и_номер_паспорта], 
+    [abonents].[Код_подразделения] AS [Код_подразделения], 
+    [abonents].[Кем_выдан] AS [Кем_выдан], 
+    [abonents].[Дата_выдачи_паспорта] AS [Дата_выдачи_паспорта], 
+    [abonents].[Номер_договора] AS [Номер_договора], 
+    [abonents].[Дата_заключения_договора] AS [Дата_заключения_договора], 
+    [abonents].[Тип_договора] AS [Тип_договора], 
+    [abonents].[Причина_расторжения_договора] AS [Причина_расторжения_договора], 
+    [abonents].[Лицевой_счет] AS [Лицевой_счет], 
+    [abonents].[Услуги] AS [Услуги], 
+    [abonents].[Услуги2] AS [Услуги2], 
+    [abonents].[Услуги3] AS [Услуги3], 
+    [abonents].[Дата_расторжения_договора] AS [Дата_расторжения_договора], 
+    [abonents].[column22] AS [column22], 
+    [abonents].[Серийный_номер_оборудования] AS [Серийный_номер_оборудования]
+    FROM [dbo].[abonents] AS [abonents]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Session2" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="abonents">
+          <Key>
+            <PropertyRef Name="Номер_абонента" />
+            <PropertyRef Name="ФИО" />
+            <PropertyRef Name="Пол" />
+            <PropertyRef Name="Дата_рождения" />
+            <PropertyRef Name="Номер_телефона" />
+            <PropertyRef Name="Электронная_почта" />
+            <PropertyRef Name="Адрес_прописки" />
+            <PropertyRef Name="Адрес_проживания" />
+            <PropertyRef Name="Серия_и_номер_паспорта" />
+            <PropertyRef Name="Код_подразделения" />
+            <PropertyRef Name="Кем_выдан" />
+            <PropertyRef Name="Дата_выдачи_паспорта" />
+            <PropertyRef Name="Номер_договора" />
+            <PropertyRef Name="Дата_заключения_договора" />
+            <PropertyRef Name="Тип_договора" />
+            <PropertyRef Name="Лицевой_счет" />
+            <PropertyRef Name="Услуги" />
+            <PropertyRef Name="Серийный_номер_оборудования" />
+          </Key>
+          <Property Name="Номер_абонента" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ФИО" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Пол" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Дата_рождения" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Номер_телефона" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Электронная_почта" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Адрес_прописки" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Адрес_проживания" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Серия_и_номер_паспорта" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Код_подразделения" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Кем_выдан" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Дата_выдачи_паспорта" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Номер_договора" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Дата_заключения_договора" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Тип_договора" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Причина_расторжения_договора" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Лицевой_счет" Type="Int32" Nullable="false" />
+          <Property Name="Услуги" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Услуги2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Услуги3" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Дата_расторжения_договора" Type="DateTime" Precision="0" />
+          <Property Name="column22" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Серийный_номер_оборудования" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="session2Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="abonents" EntityType="Self.abonents" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище Session2Container" CdmEntityContainer="session2Entities">
+          <EntitySetMapping Name="abonents">
+            <EntityTypeMapping TypeName="Session2.abonents">
+              <MappingFragment StoreEntitySet="abonents">
+                <ScalarProperty Name="Номер_абонента" ColumnName="Номер_абонента" />
+                <ScalarProperty Name="ФИО" ColumnName="ФИО" />
+                <ScalarProperty Name="Пол" ColumnName="Пол" />
+                <ScalarProperty Name="Дата_рождения" ColumnName="Дата_рождения" />
+                <ScalarProperty Name="Номер_телефона" ColumnName="Номер_телефона" />
+                <ScalarProperty Name="Электронная_почта" ColumnName="Электронная_почта" />
+                <ScalarProperty Name="Адрес_прописки" ColumnName="Адрес_прописки" />
+                <ScalarProperty Name="Адрес_проживания" ColumnName="Адрес_проживания" />
+                <ScalarProperty Name="Серия_и_номер_паспорта" ColumnName="Серия_и_номер_паспорта" />
+                <ScalarProperty Name="Код_подразделения" ColumnName="Код_подразделения" />
+                <ScalarProperty Name="Кем_выдан" ColumnName="Кем_выдан" />
+                <ScalarProperty Name="Дата_выдачи_паспорта" ColumnName="Дата_выдачи_паспорта" />
+                <ScalarProperty Name="Номер_договора" ColumnName="Номер_договора" />
+                <ScalarProperty Name="Дата_заключения_договора" ColumnName="Дата_заключения_договора" />
+                <ScalarProperty Name="Тип_договора" ColumnName="Тип_договора" />
+                <ScalarProperty Name="Причина_расторжения_договора" ColumnName="Причина_расторжения_договора" />
+                <ScalarProperty Name="Лицевой_счет" ColumnName="Лицевой_счет" />
+                <ScalarProperty Name="Услуги" ColumnName="Услуги" />
+                <ScalarProperty Name="Услуги2" ColumnName="Услуги2" />
+                <ScalarProperty Name="Услуги3" ColumnName="Услуги3" />
+                <ScalarProperty Name="Дата_расторжения_договора" ColumnName="Дата_расторжения_договора" />
+                <ScalarProperty Name="column22" ColumnName="column22" />
+                <ScalarProperty Name="Серийный_номер_оборудования" ColumnName="Серийный_номер_оборудования" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

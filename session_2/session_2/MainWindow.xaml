@@ -18,18 +18,18 @@
             <ColumnDefinition Width="170"/>
         </Grid.ColumnDefinitions>
         <Image Source="img/logo_TNS.png" Margin="0,-1,0,343"/>
-        <Button x:Name="abonents" Content="Абоненты" HorizontalAlignment="Center" Margin="0,130,0,0" VerticalAlignment="Top" Height="27" Width="120" FontSize="13" Background="#FF1C9CDA" />
-        <Button Content="Активы" HorizontalAlignment="Center" VerticalAlignment="Top" Height="30" Width="120" FontSize="13" Background="#FF1C9CDA" Margin="0,212,0,0" />
-        <Button Content="Биллинг" HorizontalAlignment="Center" Margin="0,262,0,0" VerticalAlignment="Top" Height="22" Width="120" FontSize="13" Background="#FF1C9CDA"/>
-        <Button Content="Поддержка &#xD;&#xA;пользователей" HorizontalAlignment="Center" Margin="0,301,0,0" VerticalAlignment="Top" Height="35" Width="120" FontSize="13" Background="#FF1C9CDA"/>
-        <Button Content="CRM" HorizontalAlignment="Center" Margin="0,352,0,0" VerticalAlignment="Top" Height="27" Width="120" FontSize="13" Background="#FF1C9CDA"/>
-        <Button Content="Управление&#xD;&#xA; оборудованием" HorizontalAlignment="Center" Margin="0,162,0,0" VerticalAlignment="Top" Height="45" Width="120" FontSize="13" Background="#FF1C9CDA" />
+        <Button x:Name="abonents" Content="Абоненты" HorizontalAlignment="Center" Margin="0,110,0,0" VerticalAlignment="Top" Height="27" Width="120" FontSize="13" Background="#FF1C9CDA" />
+        <Button Content="Активы" HorizontalAlignment="Center" VerticalAlignment="Top" Height="30" Width="120" FontSize="13" Background="#FF1C9CDA" Margin="0,195,0,0" />
+        <Button Content="Биллинг" HorizontalAlignment="Center" Margin="0,231,0,0" VerticalAlignment="Top" Height="22" Width="120" FontSize="13" Background="#FF1C9CDA"/>
+        <Button Content="Поддержка &#xD;&#xA;пользователей" HorizontalAlignment="Center" Margin="0,266,0,0" VerticalAlignment="Top" Height="35" Width="120" FontSize="13" Background="#FF1C9CDA"/>
+        <Button Content="CRM" HorizontalAlignment="Center" Margin="0,306,0,0" VerticalAlignment="Top" Height="27" Width="120" FontSize="13" Background="#FF1C9CDA"/>
+        <Button Content="Управление&#xD;&#xA; оборудованием" HorizontalAlignment="Center" Margin="0,142,0,0" VerticalAlignment="Top" Height="45" Width="120" FontSize="13" Background="#FF1C9CDA" />
         <Button 
             Content ="?"
-            Margin="0,409,0,0" 
+            Margin="0,414,0,0" 
             FontSize="24" 
             FontWeight="Bold"
-            Background="#FF1C9CDA" HorizontalAlignment="Center" Width="49" Height="45" VerticalAlignment="Top" Grid.RowSpan="2">
+            Background="#FF1C9CDA" HorizontalAlignment="Center" Width="40" Height="40" VerticalAlignment="Top" Grid.RowSpan="2">
             <Button.Resources>
                 <Style 
                     TargetType="Border">
@@ -39,6 +39,7 @@
                 </Style>
             </Button.Resources>
         </Button>
+        
         <Button 
             
             Content ="Фото" 
@@ -62,6 +63,11 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
+        <Ellipse  HorizontalAlignment="Left" Height="35" Margin="120,15,0,0" VerticalAlignment="Top" Width="34" Stroke="#FF0C0404" Grid.Column="3">
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="img\logo_AVA.png" />
+            </Ellipse.Fill>
+        </Ellipse>
         <RadioButton 
             
             Content="Активные" 
@@ -111,6 +117,6 @@
                     Background="#FF1C9CDA" />
             </StackPanel>
         </ScrollViewer>
-        <Frame NavigationUIVisibility="Hidden"  Name="MainFrame" Grid.Column="2" Margin="0,-1,0,1"/>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Margin="0,-6,0,5" Grid.Column="2"/>
     </Grid>
 </Window>

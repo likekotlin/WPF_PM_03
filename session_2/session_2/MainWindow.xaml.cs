@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using session_2.classes;
 
 namespace session_2
 {
@@ -24,24 +25,7 @@ namespace session_2
         {
             InitializeComponent();
             MainFrame.Navigate(new abonents());
-            main.MainFrame = MainFrame;
-        }
-
-        private void abonents_Click(object sender, RoutedEventArgs e)
-        {
-            main.MainFrame.GoBack();
-        }
-         
-         private void MainFrame_ContentRendered(object sender, EventArgs e)
-        {
-          if(MainFrame.CanGoBack)
-            {
-                abonents.Visibility = Visibility.Visible;
-            }
-          else
-            {
-                abonents.Visibility = Visibility.Hidden;
-            }
+            Manager.MainFrame = MainFrame;
         }
 
         

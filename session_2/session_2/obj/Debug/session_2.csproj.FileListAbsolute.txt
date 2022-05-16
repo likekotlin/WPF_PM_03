@@ -32,3 +32,10 @@ C:\Users\Мишка\Desktop\WPF_PM_03\session_2\session_2\obj\Debug\session_2.ex
 C:\Users\Мишка\Desktop\WPF_PM_03\session_2\session_2\obj\Debug\session_2.pdb
 C:\Users\Мишка\Desktop\WPF_PM_03\session_2\session_2\obj\Debug\abonents.g.cs
 C:\Users\Мишка\Desktop\WPF_PM_03\session_2\session_2\obj\Debug\abonents.baml
+C:\Users\Мишка\Desktop\WPF_PM_03\session_2\session_2\bin\Debug\EntityFramework.dll
+C:\Users\Мишка\Desktop\WPF_PM_03\session_2\session_2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Мишка\Desktop\WPF_PM_03\session_2\session_2\bin\Debug\EntityFramework.xml
+C:\Users\Мишка\Desktop\WPF_PM_03\session_2\session_2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Мишка\Desktop\WPF_PM_03\session_2\session_2\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Мишка\Desktop\WPF_PM_03\session_2\session_2\obj\Debug\session_2_Content.g.cs
+C:\Users\Мишка\Desktop\WPF_PM_03\session_2\session_2\obj\Debug\session_2.csproj.CopyComplete
