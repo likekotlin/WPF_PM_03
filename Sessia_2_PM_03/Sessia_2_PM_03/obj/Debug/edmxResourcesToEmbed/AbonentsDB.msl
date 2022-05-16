@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище AbonentsDBModelContainer" CdmEntityContainer="AbonentsDBEntities">
+    <EntitySetMapping Name="abonents">
+      <EntityTypeMapping TypeName="AbonentsDBModel.abonents">
+        <MappingFragment StoreEntitySet="abonents">
+          <ScalarProperty Name="Номер_абонента" ColumnName="Номер_абонента" />
+          <ScalarProperty Name="ФИО" ColumnName="ФИО" />
+          <ScalarProperty Name="Пол" ColumnName="Пол" />
+          <ScalarProperty Name="Дата_рождения" ColumnName="Дата_рождения" />
+          <ScalarProperty Name="Номер_телефона" ColumnName="Номер_телефона" />
+          <ScalarProperty Name="Электронная_почта" ColumnName="Электронная_почта" />
+          <ScalarProperty Name="Адрес_прописки" ColumnName="Адрес_прописки" />
+          <ScalarProperty Name="Адрес_проживания" ColumnName="Адрес_проживания" />
+          <ScalarProperty Name="Серия_и_номер_паспорта" ColumnName="Серия_и_номер_паспорта" />
+          <ScalarProperty Name="Код_подразделения" ColumnName="Код_подразделения" />
+          <ScalarProperty Name="Кем_выдан" ColumnName="Кем_выдан" />
+          <ScalarProperty Name="Дата_выдачи_паспорта" ColumnName="Дата_выдачи_паспорта" />
+          <ScalarProperty Name="Номер_договора" ColumnName="Номер_договора" />
+          <ScalarProperty Name="Дата_заключения_договора" ColumnName="Дата_заключения_договора" />
+          <ScalarProperty Name="Тип_договора" ColumnName="Тип_договора" />
+          <ScalarProperty Name="Причина_расторжения_договора" ColumnName="Причина_расторжения_договора" />
+          <ScalarProperty Name="Лицевой_счет" ColumnName="Лицевой_счет" />
+          <ScalarProperty Name="Услуги" ColumnName="Услуги" />
+          <ScalarProperty Name="Услуги2" ColumnName="Услуги2" />
+          <ScalarProperty Name="Услуги3" ColumnName="Услуги3" />
+          <ScalarProperty Name="Дата_расторжения_договора" ColumnName="Дата_расторжения_договора" />
+          <ScalarProperty Name="column22" ColumnName="column22" />
+          <ScalarProperty Name="Серийный_номер_оборудования" ColumnName="Серийный_номер_оборудования" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

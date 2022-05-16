@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AbonentsDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="abonents">
+    <Key>
+      <PropertyRef Name="Номер_абонента" />
+      <PropertyRef Name="ФИО" />
+      <PropertyRef Name="Пол" />
+      <PropertyRef Name="Дата_рождения" />
+      <PropertyRef Name="Номер_телефона" />
+      <PropertyRef Name="Электронная_почта" />
+      <PropertyRef Name="Адрес_прописки" />
+      <PropertyRef Name="Адрес_проживания" />
+      <PropertyRef Name="Серия_и_номер_паспорта" />
+      <PropertyRef Name="Код_подразделения" />
+      <PropertyRef Name="Кем_выдан" />
+      <PropertyRef Name="Дата_выдачи_паспорта" />
+      <PropertyRef Name="Номер_договора" />
+      <PropertyRef Name="Дата_заключения_договора" />
+      <PropertyRef Name="Тип_договора" />
+      <PropertyRef Name="Лицевой_счет" />
+      <PropertyRef Name="Услуги" />
+      <PropertyRef Name="Серийный_номер_оборудования" />
+    </Key>
+    <Property Name="Номер_абонента" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ФИО" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Пол" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Дата_рождения" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Номер_телефона" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Электронная_почта" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Адрес_прописки" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Адрес_проживания" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Серия_и_номер_паспорта" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Код_подразделения" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Кем_выдан" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Дата_выдачи_паспорта" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Номер_договора" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Дата_заключения_договора" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Тип_договора" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Причина_расторжения_договора" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Лицевой_счет" Type="Int32" Nullable="false" />
+    <Property Name="Услуги" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Услуги2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Услуги3" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Дата_расторжения_договора" Type="DateTime" Precision="0" />
+    <Property Name="column22" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Серийный_номер_оборудования" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="AbonentsDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="abonents" EntityType="Self.abonents" />
+  </EntityContainer>
+</Schema>
