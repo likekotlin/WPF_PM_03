@@ -9,7 +9,7 @@
       Title="AbonentsPage">
 
     <Grid Background="White">
-        <TextBlock VerticalAlignment="Center" Margin="25,0,197,0" FontSize="28">Абоненты ТНС</TextBlock>
+        
         <DataGrid x:Name="GridAbonents" Margin="0,52,0,0" IsReadOnly="True">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ФИО" Binding="{Binding ФИО}" Width="*"></DataGridTextColumn>

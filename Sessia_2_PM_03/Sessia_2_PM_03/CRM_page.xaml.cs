@@ -12,19 +12,26 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Sessia_2_PM_03.Classes;
 
 namespace Sessia_2_PM_03
 {
     /// <summary>
-    /// Логика взаимодействия для AbonentsPage.xaml
+    /// Логика взаимодействия для CRM_page.xaml
     /// </summary>
-    public partial class AbonentsPage : Page
+    public partial class CRM_page : Page
     {
-        public AbonentsPage()
+        public CRM_page()
         {
             InitializeComponent();
             GridAbonents.ItemsSource = AbonentsDBEntities.GetContext().abonents.ToList();
+        }
 
+        
+
+        private void AddButton_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new AddCRM_page());
         }
     }
 }

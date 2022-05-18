@@ -28,5 +28,37 @@ namespace Sessia_2_PM_03
             Manager.MainFrame = MainFrame;
            
         }
+
+        
+
+        private void ManagementAbonentsButton_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new ManagementAbonentsPage());
+        }
+
+        private void ActivsButton_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new ActivsPage());
+        }
+
+        private void BillingButton_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new BillingPage());
+        }
+
+        private void SupportUsers_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new SupportUsersPage());
+        }
+
+        private void CRM_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new CRM_page());
+        }
+
+        private void abonents_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new AbonentsPage());
+        }
     }
 }

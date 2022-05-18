@@ -16,15 +16,18 @@ using System.Windows.Shapes;
 namespace Sessia_2_PM_03
 {
     /// <summary>
-    /// Логика взаимодействия для AbonentsPage.xaml
+    /// Логика взаимодействия для AddCRM_page.xaml
     /// </summary>
-    public partial class AbonentsPage : Page
+    public partial class AddCRM_page : Page
     {
-        public AbonentsPage()
+        public AddCRM_page()
         {
             InitializeComponent();
-            GridAbonents.ItemsSource = AbonentsDBEntities.GetContext().abonents.ToList();
+        }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Типо сохранено(((((");
         }
     }
 }

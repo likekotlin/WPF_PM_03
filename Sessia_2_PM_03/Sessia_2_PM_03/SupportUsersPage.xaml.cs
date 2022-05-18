@@ -16,15 +16,13 @@ using System.Windows.Shapes;
 namespace Sessia_2_PM_03
 {
     /// <summary>
-    /// Логика взаимодействия для AbonentsPage.xaml
+    /// Логика взаимодействия для SupportUsersPage.xaml
     /// </summary>
-    public partial class AbonentsPage : Page
+    public partial class SupportUsersPage : Page
     {
-        public AbonentsPage()
+        public SupportUsersPage()
         {
             InitializeComponent();
-            GridAbonents.ItemsSource = AbonentsDBEntities.GetContext().abonents.ToList();
-
         }
     }
 }
