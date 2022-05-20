@@ -29,9 +29,6 @@ namespace Sessia_2_PM_03
 
         
 
-        private void ControlSostButton_Click(object sender, RoutedEventArgs e)
-        {
-            Manager.MainFrame.Navigate(new ControlSost());
-        }
+        
     }
 }

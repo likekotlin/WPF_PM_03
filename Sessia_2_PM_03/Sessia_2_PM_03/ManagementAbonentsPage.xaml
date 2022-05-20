@@ -9,11 +9,41 @@
       Title="ManagementAbonentsPage">
 
     <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75" />
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
 
-        <TextBlock HorizontalAlignment="Left" Margin="28,47,0,0" TextWrapping="Wrap" Text="Управление оборудованием" VerticalAlignment="Top" FontSize="26" Width="397"/>
-        <Button Name="ControlSostButton" Content="Контроль состояния" HorizontalAlignment="Left" Margin="10,166,0,0" VerticalAlignment="Top" Height="106" Width="129" Click="ControlSostButton_Click" />
-        <Button Content="Настройка оборудования" HorizontalAlignment="Left" Margin="172,102,0,0" VerticalAlignment="Top" Height="91" Width="149"/>
-        <Button Content="Расчет количества базовых станций" HorizontalAlignment="Left" Margin="144,218,0,0" VerticalAlignment="Top" Height="99" Width="205"/>
+
+
+        <TextBlock Grid.Column="0"  VerticalAlignment="Center" Margin="25,0,15,0" FontSize="28" Grid.ColumnSpan="3">Управление оборудованием</TextBlock>
+
+
+
+        <DataGrid x:Name="EqMagNetGrid" AutoGenerateColumns="false" IsReadOnly="True" Grid.Row="1" Grid.Column="0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Оборудование магистральных сетей" Width="*" Binding="{Binding Название_магистальных_сетей}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <DataGrid x:Name="EqAccSysGrid" AutoGenerateColumns="false" IsReadOnly="True" Grid.Row="1" Grid.Column="1">
+            <DataGrid.Columns>
+                <DataGridTextColumn  Header="Оборудование систем доступа" Width="*" Binding="{Binding Наименование_сетей_доступа}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <DataGrid x:Name="EqSubGrid" AutoGenerateColumns="False" IsReadOnly="True" Grid.Row="1" Grid.Column="2">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Оборудование абонента" Width="*" Binding="{Binding Наименование_оборудования_абонента}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        
 
     </Grid>
 </Page>
