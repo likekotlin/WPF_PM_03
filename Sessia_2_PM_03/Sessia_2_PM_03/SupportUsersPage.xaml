@@ -10,6 +10,62 @@
 
     <Grid Background="White">
         <TextBlock HorizontalAlignment="Left" Margin="35,26,0,0" TextWrapping="Wrap" Text="Поддержка пользователей" VerticalAlignment="Top" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="35,83,0,0" TextWrapping="Wrap" Text="Выбор абонента:" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="134,83,0,0" VerticalAlignment="Top" Width="120" Height="19"/>
+        <TextBlock HorizontalAlignment="Left" Margin="35,104,0,0" TextWrapping="Wrap" Text="Заявки абонента:" VerticalAlignment="Top"/>
+        <ScrollViewer Margin="16,125,606,10">
+            <StackPanel>
+                <TextBlock 
+                    Text="11:00" 
+                    Height="61" 
+                    FontSize="40"
+                    TextAlignment="Center"
+                    TextWrapping="Wrap" 
+                    Background="Gray" />
+                <TextBlock 
+                    Text="12:00"
+                    Height="58" 
+                    FontSize="40" 
+                    TextAlignment="Center" 
+                    TextWrapping="Wrap"
+                    Background="Gray" />
+                <TextBlock 
+                    Text="13:00" 
+                    Height="60" 
+                    FontSize="40"
+                    TextAlignment="Center" 
+                    TextWrapping="Wrap"
+                    Background="Gray" />
+                <TextBlock 
+                    Text="14:00" 
+                    Height="57"
+                    FontSize="40" 
+                    TextAlignment="Center"
+                    TextWrapping="Wrap"
+                    Background="Gray" />
+                <TextBlock 
+                    Text="15:00" 
+                    Height="57"
+                    FontSize="40" 
+                    TextAlignment="Center"
+                    TextWrapping="Wrap"
+                    Background="Gray" />
+                <TextBlock 
+                    Text="16:00" 
+                    Height="57"
+                    FontSize="40" 
+                    TextAlignment="Center"
+                    TextWrapping="Wrap"
+                    Background="Gray" />
+                <TextBlock 
+                    Text="17:00" 
+                    Height="57"
+                    FontSize="40" 
+                    TextAlignment="Center"
+                    TextWrapping="Wrap"
+                    Background="Gray" />
+            </StackPanel>
+        </ScrollViewer>
 
     </Grid>
 </Page>
