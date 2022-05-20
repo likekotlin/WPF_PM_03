@@ -12,26 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Sessia_2_PM_03.Classes;
-
 
 namespace Sessia_2_PM_03
 {
     /// <summary>
-    /// Логика взаимодействия для ManagementAbonentsPage.xaml
+    /// Логика взаимодействия для ControlSost.xaml
     /// </summary>
-    public partial class ManagementAbonentsPage : Page
+    public partial class ControlSost : Page
     {
-        public ManagementAbonentsPage()
+        public ControlSost()
         {
             InitializeComponent();
-        }
-
-        
-
-        private void ControlSostButton_Click(object sender, RoutedEventArgs e)
-        {
-            Manager.MainFrame.Navigate(new ControlSost());
         }
     }
 }

@@ -67,6 +67,9 @@
     <Compile Include="AddCRM_page.xaml.cs">
       <DependentUpon>AddCRM_page.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ControlSost.xaml.cs">
+      <DependentUpon>ControlSost.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CRM_page.xaml.cs">
       <DependentUpon>CRM_page.xaml</DependentUpon>
     </Compile>
@@ -86,6 +89,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="BillingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ControlSost.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

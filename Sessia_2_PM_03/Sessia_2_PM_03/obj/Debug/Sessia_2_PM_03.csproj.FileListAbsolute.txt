@@ -60,3 +60,5 @@ C:\Users\Мишка\Desktop\WPF_PM_03\Sessia_2_PM_03\Sessia_2_PM_03\obj\Debug\CR
 C:\Users\Мишка\Desktop\WPF_PM_03\Sessia_2_PM_03\Sessia_2_PM_03\obj\Debug\CRM_page.baml
 C:\Users\Мишка\Desktop\WPF_PM_03\Sessia_2_PM_03\Sessia_2_PM_03\obj\Debug\AddCRM_page.g.cs
 C:\Users\Мишка\Desktop\WPF_PM_03\Sessia_2_PM_03\Sessia_2_PM_03\obj\Debug\AddCRM_page.baml
+C:\Users\Мишка\Desktop\WPF_PM_03\Sessia_2_PM_03\Sessia_2_PM_03\obj\Debug\ControlSost.g.cs
+C:\Users\Мишка\Desktop\WPF_PM_03\Sessia_2_PM_03\Sessia_2_PM_03\obj\Debug\ControlSost.baml

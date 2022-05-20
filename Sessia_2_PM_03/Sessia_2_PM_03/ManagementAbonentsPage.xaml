@@ -9,7 +9,11 @@
       Title="ManagementAbonentsPage">
 
     <Grid Background="White">
+
         <TextBlock HorizontalAlignment="Left" Margin="28,47,0,0" TextWrapping="Wrap" Text="Управление оборудованием" VerticalAlignment="Top" FontSize="26" Width="397"/>
+        <Button Name="ControlSostButton" Content="Контроль состояния" HorizontalAlignment="Left" Margin="10,166,0,0" VerticalAlignment="Top" Height="106" Width="129" Click="ControlSostButton_Click" />
+        <Button Content="Настройка оборудования" HorizontalAlignment="Left" Margin="172,102,0,0" VerticalAlignment="Top" Height="91" Width="149"/>
+        <Button Content="Расчет количества базовых станций" HorizontalAlignment="Left" Margin="144,218,0,0" VerticalAlignment="Top" Height="99" Width="205"/>
 
     </Grid>
 </Page>
